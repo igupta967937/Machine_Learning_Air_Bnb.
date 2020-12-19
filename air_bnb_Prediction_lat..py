@@ -13,7 +13,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 import numpy as np
-
+from sklearn.metrics import mean_squared_error
 def p2f(x):
     return float(x.strip('%'))/100
 
